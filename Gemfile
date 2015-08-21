@@ -22,6 +22,8 @@ gem 'pg'
 gem 'rspec', :group => 'test'
 gem 'rack-test', :require => 'rack/test', :group => 'test'
 
+# asset pipeline
+gem 'padrino-sprockets', :require => ['padrino/sprockets'], :git => 'git://github.com/nightsailer/padrino-sprockets.git'
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
 
