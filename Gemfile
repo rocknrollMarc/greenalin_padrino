@@ -24,6 +24,8 @@ gem 'rack-test', :require => 'rack/test', :group => 'test'
 
 # asset pipeline
 gem 'padrino-sprockets', :require => ['padrino/sprockets'], :git => 'git://github.com/nightsailer/padrino-sprockets.git'
+gem 'uglifier', '2.1.1'
+gem 'yui-compressor', '0.9.6'
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
 
