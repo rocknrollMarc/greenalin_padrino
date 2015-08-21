@@ -3,6 +3,8 @@ module Greenalin
     use ConnectionPoolManagement
     register Padrino::Mailer
     register Padrino::Helpers
+		register Padrino::Sprockets
+		sprockets
 
     enable :sessions
 
